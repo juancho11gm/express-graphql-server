@@ -13,6 +13,16 @@ const schema = buildSchema(`
         description: String!,
         number: Int
     }
+
+    type Mutation {
+        createTask(input: TaskInput): Task
+    }
+
+    input TaskInput {
+        title: String!,
+        description: String!,
+        number: Int
+    }
 `);
 
 export default schema;
