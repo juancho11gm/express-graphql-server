@@ -4,6 +4,8 @@ Express app running GraphQL.
 
 ## How to run
 
+- Add SRV URL from MongoDB within the `.env` file.
+
 ```bash
 npm start
 ```
